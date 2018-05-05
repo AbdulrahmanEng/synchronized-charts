@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app__title {
+  text-align: center;
+}
+
+#chart {
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+}
+
+.quotes {
+  list-style: none;
+  padding: 0;
+}
+
+.quote {
+  display: inline-block;
+  padding: 1rem;
+  margin: 0 1rem 0.5rem 0;
+  width: 25%;
+  border-left: 5px solid mediumspringgreen;
+  background-color: white;
+  position: relative;
+}
+
+.quote__name {
+  font-weight: bold;
+  color: black;
+}
+
+.quote__delete {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  color: darkgrey;
+  font-size: smaller;
+}
+
+#quote {
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #4e4e4e;
+  border-bottom: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+
+#quote:focus {
+  border-bottom: 2px solid black;
+  outline: none;
+}
